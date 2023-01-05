@@ -32,6 +32,10 @@ DEBUG = False
 ALLOWED_HOSTS = ['nn-django-blog.herokuapp.com', 'localhost']
 
 
+# 505 errors 
+ACCOUNT_EMAIL_VERIFICATION = 'none'
+
+
 # Application definition
 
 INSTALLED_APPS = [
